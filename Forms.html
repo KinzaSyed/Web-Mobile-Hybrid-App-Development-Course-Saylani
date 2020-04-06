@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form action="http://www.example.com/subscribe.php" method="get">
+      <p>
+        Username:
+        <input type="text" name="username" size="11" maxlength="11" />
+        <br />Password:
+        <input type="password" name="password" size="11" maxlength="11" />
+
+        <br />Contact:
+        <input type="number" name="number" size="11" maxlength="11" />
+        <br />
+        <textarea name="comments" id="textarea" cols="30" rows="10"></textarea>
+        <br />Gender: Male<input type="radio" name="Gender" id="Male" />
+<input type="date" name="date" required id="">
+        <label> Female<input type="radio" name="Gender" id="Female" /></label>
+        Others<input type="radio" name="Gender" id="Others" />
+<input type="search" name="search" id="" />
+        <fieldset>
+        <legend>Services: </legend>
+    
+        Car Wash:
+        <input type="checkbox" name="services" value="Car Wash" /> Tire Wash:
+        <input type="checkbox" name="services" value="Tire Wash" />
+      </fieldset>
+        Operating System
+        <select name="Operating System" id="OS">
+          <option value="Windows">Windows</option>
+          <option selected value="Mac">Mac</option>
+          <option value="Linux">Linux</option>
+        </select>
+        <br />Upload Profile Pic:
+        <input type="file" name="user-img" id="file" />
+        <br />
+        <input type="submit" name="submit" id="reg-form" value="submit" />
+        <br />
+        <br />
+
+        <br />
+      </p>
+    </form>
+  </body>
+</html>
