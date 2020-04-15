@@ -2,16 +2,20 @@ table{
   background-color: #6b5acd;
   width: 100%;
   color: white;
+  border-spacing: 13px;
 }
-.blue{
-color:blue;
+.noborder{
+  border-spacing: 0px;
 }
+
 h1, .centered{
   text-align: center;
+  color: #6b5acd;
+  text-decoration: underline #6b5acd;
 }
 .tab{
     padding-left: 20%;
-    padding-right: 20%;
+    padding-right: 25%;
   
 
 }
@@ -23,3 +27,4 @@ P{
   font-size: 20px;
   font-weight: bold;
 }
+
