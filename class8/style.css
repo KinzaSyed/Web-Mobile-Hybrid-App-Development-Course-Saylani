@@ -1,0 +1,25 @@
+body{
+  background-color: blueviolet;
+}
+
+.main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.one,.two,.three{
+  border: 3px solid red;
+  width: 250px;
+}
+@media only screen and (max-width: 600px){
+  body {
+    background-color: cornflowerblue;
+
+  }
+}
+@media only screen and (max-width: 600px){
+  body {
+    background-color:darkcyan;
+
+  }
+}
